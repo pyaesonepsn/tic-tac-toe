@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+<!--    Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+<!--    Master Styles-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--    Header -->
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+<!-- End of Header -->
+
+<!-- Game -->
+    <section>
+
+<!--        Movement -->
+        <h2 class="move"></h2>
+<!--        End of Movement-->
+
+<!--        Grid -->
+        <div class="grid">
+            <div class="grid-section" data-section-index="0"></div>
+            <div class="grid-section" data-section-index="1"></div>
+            <div class="grid-section" data-section-index="2"></div>
+            <div class="grid-section" data-section-index="3"></div>
+            <div class="grid-section" data-section-index="4"></div>
+            <div class="grid-section" data-section-index="5"></div>
+            <div class="grid-section" data-section-index="6"></div>
+            <div class="grid-section" data-section-index="7"></div>
+            <div class="grid-section" data-section-index="8"></div>
+        </div>
+<!--        End of Grind-->
+
+<!--        Restart Button-->
+        <button type="button" class="restart-btn">Restart Game</button>
+<!--        End of Restart Button-->
+
+    </section>
+
+<!-- End of Game -->
+<!--    Modal Wrapper-->
+    <section class="modal-wrapper">
+        <div class="modal">
+            <h2 class="modal-text">Player One Won!</h2>
+            <span class="close">X</span>
+        </div>
+    </section>
+<!-- End of Modal Wrapper -->
+
+    <script src="app.js"></script>
+</body>
+</html>
