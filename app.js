@@ -72,7 +72,7 @@ const getResult = () => {
 
     if(roundWon){
         resultPopup.classList.add('visible');
-        resultDisplay.innerHTML = `Pyae Sone has won Cho Lwin Tun's heart`;
+        resultDisplay.innerHTML = `${currentPlayer} has won the game`;
         gameActive = false;
         return;
     }
@@ -81,7 +81,7 @@ const getResult = () => {
 
     if(roundDraw){
         resultPopup.classList.add('visible');
-        resultDisplay.innerHTML = `Cho Lwin Tun loves Pyae Sone so much :P `;
+        resultDisplay.innerHTML = `Draw`;
         gameActive = false;
         return;
     }
