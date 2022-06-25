@@ -89,6 +89,12 @@ section{
     text-align: center;
 }
 
+#name{
+    text-decoration: none;
+    color: cornflowerblue;
+
+}
+
 /* Media */
 /* Smaller Devices */
 @media screen
